@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+{% if title %}
+<title>{{ title }} - ARMS</title>
+{% else %}
+<title>Welcome to ARMS</title>
+{% endif %}
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <meta http-equiv="refresh" content="5" > -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Nageshbansal/css_js/main1.css"> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Nageshbansal/css_js/chart_data1.js"> </script>
+<script src="https://cdn.jsdelivr.net/gh/Nageshbansal/css_js/main1.js"> </script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Nageshbansal/css_js/style1.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Nageshbansal/css_js/util1.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js"
+  integrity="sha256-8zyeSXm+yTvzUN1VgAOinFgaVFEFTyYzWShOy9w7WoQ=" crossorigin="anonymous"></script>
+
+
+
+<style>
+  html,
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: "Raleway", sans-serif
+  }
+</style>
+
+<body class="w3-light-grey">
+
+  <!-- Top container -->
+  <div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
+    <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i
+        class="fa fa-bars"></i>  Menu</button>
+    <span class="w3-bar-item w3-right">Iot-Chatbot</span>
+     <button onclick='window.location.href = "/logout/{{ user.username }}/{{ user.session }}";'
+      class="w3-button w3-red w3-round">Logout</button>
+    <input type="hidden" id="apikey" value="{{ user.api }}">
+  </div>
+
+  <!-- Sidebar/menu -->
+  <!-- <nav class="w3-sidebar w3-collapse w3-white w3-right"
+    style="width:50%;height:100vh; position: fixed;top:100px;right: -1px;" id="mySidebar">
+
+  
+
+  </nav> -->
+
+
+
+  <!-- !PAGE CONTENT! -->
+
+  <div class="w3-main" style="margin-left:10px;margin-top:43px;">
+
+    <!-- Header -->
+    <header class="w3-container" style="padding-top:22px">
+      <h5><b><i class="fa fa-dashboard"></i> My Dashboard</b></h5>
+    </header>
+
+    <div style="display: flex;justify-content: center;flex-direction: column;">
+      <div class="w3-margin-bottom"></div>
+      <div class="w3-quarter">
+        <div class="w3-container w3-white w3-hover-shadow w3-border-red w3-bottombar w3-padding-16"
+          style="margin-bottom:10px;">
+          <div class="w3-right"><img src="https://static.vecteezy.com/system/resources/previews/000/442/462/non_2x/temperature-vector-icon.jpg"style="height: 80px;"></div>
+          <div class="w3-right">
+            <h3 id="card-temp">
+              <div id="temp"></div>
+            </h3>
+          </div>
+
+          <div class="w3-clear"></div>
+          <h4>Temperature</h4>
+        </div>
+      </div>
+<!--         <div class="w3-quarter">
+        <div class="w3-container w3-white w3-hover-shadow w3-border-red w3-bottombar w3-padding-16"
+          style="margin-bottom:10px;">
+          <div class="w3-right"><img src="https://static.vecteezy.com/system/resources/previews/000/349/850/non_2x/ac-vector-icon.jpg"style="height: 80px;"></div>
+          <div class="w3-right">
+            <h3 id="card-temp">
+              <div id="ac"></div>
+            </h3>
+          </div>
+
+          <div class="w3-clear"></div>
+          <h4>Air Conditioner</h4>
+        </div>
+      </div> -->
+      <div class="w3-quarter">
+        <div class="w3-container w3-white w3-hover-shadow w3-border-blue w3-bottombar w3-padding-16"
+          style="margin-bottom:10px;">
+          <div class="w3-left"><img src="https://static.vecteezy.com/system/resources/previews/000/356/035/original/charging-fan-vector-icon.jpg" style="height: 80px;"></div>
+          <div class="w3-right">
+            <h3 id="card-fan">
+              <div id="fan"></div>
+            </h3>
+          </div>
+          <div class="w3-clear"></div>
+          <h4>FAN</h4>
+        </div>
+      </div>
+      <div class="w3-quarter">
+        <div class="w3-container w3-white w3-hover-shadow w3-border-teal w3-bottombar w3-padding-16"
+          style="margin-bottom:10px;">
+          <div class="w3-left"><img src="https://static.vecteezy.com/system/resources/previews/000/439/928/original/vector-humidity-vetor-icon.jpg"style="height:80px;"></div>
+          <div class="w3-right">
+            <h3 id="card-humidity">
+              <div id="hum"></div>
+            </h3>
+          </div>
+          <div class="w3-clear"></div>
+          <h4>Humidity</h4>
+        </div>
+      </div>
+      <div class="w3-quarter">
+        <div class="w3-container w3-white w3-hover-shadow w3-border-orange w3-bottombar w3-padding-16"
+          style="margin-bottom:10px;">
+          <div class="w3-left"><img src="https://static.vecteezy.com/system/resources/previews/000/554/427/original/lightbulb-vector-icon.jpg" style="width:80px;height:80px"></div>
+          <div class="w3-right">
+            <h3 id="card-light">
+              <div id="lig"></div>
+            </h3>
+          </div>
+          <div class="w3-clear"></div>
+          <h4>Lights</h4>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  <div class="row" style="width:100%;height:100vh; position: fixed;top:100px;right: -350px;">
+        <div class="col-sm-6 offset-sm-3"style="overflow-y:auto;">
+            <div id="chatbox" class="border border-success container" style="height: 70vh;overflow-x:hidden; overflow-y:auto;background-color:white">
+                <p class="botText"><span>Hi! I'm Chatterbot,How can i help You?
+                </span></p>
+            </div>
+            <div id="userInput">
+                <input id="textInput" class="form-control" type="text" name="msg" placeholder="Type Your Message Here">
+                <input id="buttonInput" class="btn btn-success form-control" type="submit" value="Send">
+            </div>
+        </div>
+</body>
+
+
+
+</html>
+
+<style>
+  .active {
+  background-color: #7FFF00;  
+}
+
+.inactive {
+  background-color: #FFFFFF;
+}
+
+</style>
+<script>
+  // Get the Sidebar
+  var mySidebar = document.getElementById("mySidebar");
+
+  // Get the DIV with overlay effect
+  var overlayBg = document.getElementById("myOverlay");
+
+  // Toggle between showing and hiding the sidebar, and add overlay effect
+  function w3_open() {
+    if (mySidebar.style.display === 'block') {
+      mySidebar.style.display = 'none';
+      overlayBg.style.display = "none";
+    } else {
+      mySidebar.style.display = 'block';
+      overlayBg.style.display = "block";
+    }
+  }
+
+  // Close the sidebar with the close button
+  function w3_close() {
+    mySidebar.style.display = "none";
+    overlayBg.style.display = "none";
+  }
+  var username = "{{user.username}}"
+  console.log(username);
+  myfunc(username);
+
+// chatbot
+  function getResponse() {
+        let userText = $("#textInput").val();
+        let userHtml = '<p class="userText"><span>' + userText + '</span></p>';
+        $("#textInput").val("");
+        $("#chatbox").append(userHtml);
+        document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+
+        $.get("/get", { msg: userText }).done(function(data) {
+        var botHtml = '<p class="botText"><span>' + data + '</span></p>';
+        $("#chatbox").append(botHtml);
+        document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+});
+}
+    $("#textInput").keypress(function(e) {
+    //if enter key is pressed
+        if(e.which == 13) {
+            getResponse();
+          
+        }
+    });
+    $("#buttonInput").click(function() {
+        getResponse();
+    });
+
+
+
+</script>
+
+
+</body>
+
+</html>
