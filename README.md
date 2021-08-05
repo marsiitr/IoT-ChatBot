@@ -120,4 +120,6 @@ Using IoT to allow communication between various home appliances, security syste
   1. [MQTT Basics](https://medium.com/python-point/mqtt-basics-with-python-examples-7c758e605d4)
   2. [Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/)
   3. [IoT Architecture](https://www.avsystem.com/blog/what-is-iot-architecture/)
+  4. [Azure IoTHub](https://docs.microsoft.com/en-in/azure/iot-hub/)
+  
   
