@@ -106,7 +106,7 @@ Using IoT to allow communication between various home appliances, security syste
    [http://iotchatbot.azurewebsites.net/](http://iotchatbot.azurewebsites.net/)
   
   ## Team Members
-  1. [Khushi Kumavat](https://github.com/khushi861)
+  1. [Khushi Kumawat](https://github.com/khushi861)
   2. [Kushagra Agarwal](https://github.com/Kushagra-Agarwal44)
   3. [Nagesh Bansal](https://github.com/Nageshbansal)
   4. [Vaishnavi Gupta](https://github.com/vaishnavi-gupta18)
