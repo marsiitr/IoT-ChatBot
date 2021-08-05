@@ -3,7 +3,10 @@
 
 
 ## Abstract 
- It is a chatbot which integrates with Iot Devices(home appliances) and show their live status , give commands to change status. 
+ It is a chatbot integrated with an Iot(Internet of Things) network of devices. The chatbot acts as an interface for the user to view real time data and live status of home appliances as well as control them by giving commands.
+
+## Motivation
+Using IoT to allow communication between various home appliances, security systems, lighting, entertainment systems and sensors will enhance lives of people and make homes smarter. Controlling home device via chatbot remotely is convenient, easy to use and time saving.
     
 ## Networking 
  ### Creation of IoT Network Using MQTT (Message Queuing Telemetry Transport)
@@ -23,12 +26,19 @@
 
   ![Screenshot (376)](https://user-images.githubusercontent.com/76246968/127763126-a25261c6-256c-4462-b347-6034bd148757.png)
 
+## Applications
+  - Healthcare Sector
+  - Home Automation
+  - Automotive IoT
+  - Industrial Automation
+  - Wearables
+
 ## Limitation 
-  - Currently our broker/server can handle upto 8 clients/Iot devices 
+  - Currently our broker/server can handle only upto 8 clients/Iot devices 
 
 ## Future Improvments : 
- - ML model for better User expreince and which can give best suggestions to user by analysing  previous user input.
- - More clients can be connected
+ - ML model for better User experience which can give best suggestions to user by analysing previous user input.
+ - Allowing connection of more clients
  - Raspberry Pi and Sensors usage so that we can deal with realtime data.
  
 
@@ -92,6 +102,8 @@
        Username: test
        Password : 1234 
         ```
+  ## HOSTED CHATBOT
+    - (http://iotchatbot.azurewebsites.net/)
   ## TEAM MEMBERS
   1. [Vaishnavi Gupta](https://github.com/vaishnavi-gupta18)
   2. [Nagesh Bansal](https://github.com/Nageshbansal)
