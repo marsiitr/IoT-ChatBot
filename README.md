@@ -3,7 +3,7 @@
 
 
 ## Abstract 
- It is a chatbot integrated with an Iot(Internet of Things) network of devices. The chatbot acts as an interface for the user to view real time data and live status of home appliances as well as control them by giving commands.
+ It is a chatbot integrated with an Iot (Internet of Things) network of devices. The chatbot acts as an interface for the user to view real time data and live status of home appliances as well as control them by giving commands.
 
 ## Motivation
 Using IoT to allow communication between various home appliances, security systems, lighting, entertainment systems and sensors will enhance lives of people and make homes smarter. Controlling home device via chatbot remotely is convenient, easy to use and time saving.
@@ -36,7 +36,7 @@ Using IoT to allow communication between various home appliances, security syste
 ## Limitation 
   - Currently our broker/server can handle only upto 8 clients/Iot devices 
 
-## Future Improvments : 
+## Future Improvements : 
  - ML model for better User experience which can give best suggestions to user by analysing previous user input.
  - Allowing connection of more clients
  - Raspberry Pi and Sensors usage so that we can deal with realtime data.
@@ -102,15 +102,22 @@ Using IoT to allow communication between various home appliances, security syste
        Username: test
        Password : 1234 
         ```
-  ## HOSTED CHATBOT
-    - (http://iotchatbot.azurewebsites.net/)
-  ## TEAM MEMBERS
-  1. [Vaishnavi Gupta](https://github.com/vaishnavi-gupta18)
-  2. [Nagesh Bansal](https://github.com/Nageshbansal)
-  3. [Khushi Kumavat](https://github.com/khushi861)
-  4. [Kushagra Agarwal](https://github.com/Kushagra-Agarwal44)
+  ## Hosted Chatbot
+   [http://iotchatbot.azurewebsites.net/](http://iotchatbot.azurewebsites.net/)
   
-  ## MENTORS
-  1. [Sanjeev Krishnan R.](https://github.com/SanjeevKrishnan)
-  2. [Pradnesh Chavan](https://github.com/theobscuredev)
+  ## Team Members
+  1. [Khushi Kumavat](https://github.com/khushi861)
+  2. [Kushagra Agarwal](https://github.com/Kushagra-Agarwal44)
+  3. [Nagesh Bansal](https://github.com/Nageshbansal)
+  4. [Vaishnavi Gupta](https://github.com/vaishnavi-gupta18)
+  
+  ## Mentors
+  1. [Pradnesh Chavan](https://github.com/theobscuredev)
+  2. [Sanjeev Krishnan R.](https://github.com/SanjeevKrishnan)
+  
+  
+  ## References
+  1. [MQTT Basics](https://medium.com/python-point/mqtt-basics-with-python-examples-7c758e605d4)
+  2. [Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/)
+  3. [IoT Architecture](https://www.avsystem.com/blog/what-is-iot-architecture/)
   
