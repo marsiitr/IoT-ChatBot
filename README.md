@@ -74,7 +74,7 @@ Using IoT to allow communication between various home appliances, security syste
    - Downlaod the code as a zip file 
      or clone the repo By using following command in git bash
      ```
-      git clone https://github.com/Nageshbansal/IotChatbot.git
+      git clone https://github.com/marsiitr/IoT-ChatBot.git
       ```
    - create venv (optional)
    - Install required python-packages 
