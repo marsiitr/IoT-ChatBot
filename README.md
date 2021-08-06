@@ -26,6 +26,14 @@ Using IoT to allow communication between various home appliances, security syste
 
   ![Screenshot (376)](https://user-images.githubusercontent.com/76246968/127763126-a25261c6-256c-4462-b347-6034bd148757.png)
 
+## Cost Structure
+| Software Components | Cost |
+|:---------------------:|:----:|
+| Python | None(Open-Source) |
+| Flask | None(Open-Source) |
+| Paho MQTT | None(Open-Source) |
+| Cloud Services | Depends on service provider |
+
 ## Applications
   - Healthcare Sector
   - Home Automation
