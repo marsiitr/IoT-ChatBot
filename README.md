@@ -51,8 +51,10 @@
 
  
 
+<p align="justify">
+  <h2>Cost Structure</h2>
+</p>
 
-## Cost Structure
 
 | Software Components | Cost |
 |:---------------------:|:----:|
