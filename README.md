@@ -3,15 +3,29 @@
 
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/76246968/127762969-0b0b08ea-84e5-41cd-a843-ae954c220526.png">
+ <img src="https://user-images.githubusercontent.com/76246968/127762969-0b0b08ea-84e5-41cd-a843-ae954c220526.png" alt="Iot-Chatbot">
+ <i>Iot-Chatbot</i>
 </p>
 
 
-## Abstract 
- It is a chatbot integrated with an Iot (Internet of Things) network of devices. The chatbot acts as an interface for the user to view real time data and live status of home appliances as well as control them by giving commands.
+<p align="justify">
+<h2>Abstract</h2>
+<p>It is a chatbot integrated with an Iot (Internet of Things) network of devices. The chatbot acts as an interface for the user to view real time data and live status of home appliances as well as control them by giving commands.</p>
+</p>
+ 
+<p align="justify">
+<h2>Motivation</h2>
+<p>Using IoT to allow communication between various home appliances, security systems, lighting, entertainment systems and sensors will enhance lives of people and make homes smarter. Controlling home device via chatbot remotely is convenient, easy to use and time saving.</p>
+</p>
 
-## Motivation
-Using IoT to allow communication between various home appliances, security systems, lighting, entertainment systems and sensors will enhance lives of people and make homes smarter. Controlling home device via chatbot remotely is convenient, easy to use and time saving.
+<p align="justify">
+<h2>WORKFLOW</h2>
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/76246968/127763126-a25261c6-256c-4462-b347-6034bd148757.png" alt="workflow">
+ <i>IoT-chatbot Architecture</i>
+</p>
     
 ## Networking 
  ### Creation of IoT Network Using MQTT (Message Queuing Telemetry Transport)
@@ -26,10 +40,7 @@ Using IoT to allow communication between various home appliances, security syste
   - Sqlite3 act as an database in backend
   - ***Microsoft Azure App services act as Cloud based hosting platform*** 
  
-## WORKFLOW
- ### IoT-chatbot Architecture
 
-  ![Screenshot (376)](https://user-images.githubusercontent.com/76246968/127763126-a25261c6-256c-4462-b347-6034bd148757.png)
 
 ## Cost Structure
 | Software Components | Cost |
