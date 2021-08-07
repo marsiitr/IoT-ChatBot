@@ -19,7 +19,7 @@
 </p>
 
 <p align="justify">
-<h2>WORKFLOW</h2>
+ <h2>WORKFLOW</h2>
 </p>
 
 <p align="center">
@@ -61,20 +61,18 @@
 
 <p align="justify">
  <h2>Application</h2>
- <p>
+
  * Healthcare Sector<br>
  * Home Automation<br>
  * Automotive IoT<br>
  * Industrial Automation<br>
  * Wearables<br>               
- </p>
+
 
 <h2>Limitation</h2>
- <p>
  * Currently our broker/server can handle only upto 8 clients/Iot devices 
- </p>
 
-<h2>Future Improvements<h2>
+<h2>Future Improvements</h2>
   
  * ML model for better User experience which can give best suggestions to user by analysing previous user input.<br>
  * Allowing connection of more clients<br>
