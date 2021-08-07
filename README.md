@@ -137,7 +137,7 @@
        
      ```
 
-## Hosted Chatbot<
+## Hosted Chatbot
  [http://iotchatbot.azurewebsites.net/](http://iotchatbot.azurewebsites.net/)
   
   
