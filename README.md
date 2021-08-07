@@ -152,6 +152,7 @@
  2. [Kushagra Agarwal](https://github.com/Kushagra-Agarwal44)<br>
  3. [Nagesh Bansal](https://github.com/Nageshbansal)<br>
  4. [Vaishnavi Gupta](https://github.com/vaishnavi-gupta18)<br>
+ 
    </p>
  
  <h2>Mentors</h2>
@@ -159,14 +160,17 @@
  
  1. [Pradnesh Chavan](https://github.com/theobscuredev)<br>
  2. [Sanjeev Krishnan R.](https://github.com/SanjeevKrishnan)<br>
+ 
  </p>
 
  <h2>Reference</h2>
- <p>
+  <p>
+ 
  1. [MQTT Basics](https://medium.com/python-point/mqtt-basics-with-python-examples-7c758e605d4)<br>
  2. [Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/)<br>
  3. [IoT Architecture](https://www.avsystem.com/blog/what-is-iot-architecture/)<br>
  4. [Azure IoTHub](https://docs.microsoft.com/en-in/azure/iot-hub/)
- </p>
+ 
+  </p>
 
   
