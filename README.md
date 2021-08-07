@@ -63,18 +63,20 @@
 ## Limitation 
   - Currently our broker/server can handle only upto 8 clients/Iot devices 
 
-## Future Improvements : 
- - ML model for better User experience which can give best suggestions to user by analysing previous user input.
- - Allowing connection of more clients
- - Raspberry Pi and Sensors usage so that we can deal with realtime data.
- 
+<h2>Future Improvements</h2>
+<p>
+ * ML model for better User experience which can give best suggestions to user by analysing previous user input.
+ * Allowing connection of more clients
+ * Raspberry Pi and Sensors usage so that we can deal with realtime data.
+ </p>
 
 
 
 
 
 
-## Installation
+<h2>Installation</h2>
+<p align="justify">
  >By Using Hosted Website 
    - Download the all files from folder [sensors](https://github.com/Nageshbansal/IotChatbot/tree/main/sensors) 
    -  Install Python 
@@ -127,26 +129,33 @@
    - Use following credentials
        ```
        Username: test
-       Password : 1234 
-        ```
-  ## Hosted Chatbot
-   [http://iotchatbot.azurewebsites.net/](http://iotchatbot.azurewebsites.net/)
+       Password : 1234  
+ ```
+ </p>
+
+<h2>Hosted Chatbot</h2>
+   <p align="justify">[http://iotchatbot.azurewebsites.net/](http://iotchatbot.azurewebsites.net/)</p>
   
-  ## Team Members
+  
+  <h2>Team Members</h2>
+  <p>
   1. [Khushi Kumawat](https://github.com/khushi861)
   2. [Kushagra Agarwal](https://github.com/Kushagra-Agarwal44)
   3. [Nagesh Bansal](https://github.com/Nageshbansal)
   4. [Vaishnavi Gupta](https://github.com/vaishnavi-gupta18)
-  
-  ## Mentors
+ </p> 
+ 
+<h2> Mentors</h2>
+<p>
   1. [Pradnesh Chavan](https://github.com/theobscuredev)
   2. [Sanjeev Krishnan R.](https://github.com/SanjeevKrishnan)
+ </p> 
   
-  
-  ## References
+  <h2>References</h2>
+  <p>
   1. [MQTT Basics](https://medium.com/python-point/mqtt-basics-with-python-examples-7c758e605d4)
   2. [Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/)
   3. [IoT Architecture](https://www.avsystem.com/blog/what-is-iot-architecture/)
   4. [Azure IoTHub](https://docs.microsoft.com/en-in/azure/iot-hub/)
-  
+  </p>
   
