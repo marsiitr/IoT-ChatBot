@@ -30,8 +30,8 @@
 <p align="justify">
 <h2>Software Aspect</h2>
 
- <h3>Networking</h3> 
-  <h4>Creation of IoT Network Using MQTT (Message Queuing Telemetry Transport)</h4>
+### Networking
+  #### Creation of IoT Network Using MQTT (Message Queuing Telemetry Transport)
 
    - Adding multiple client requires threading and has overhead if we havemany IoT applications.So, we used MQTT protocol which is suitable for IoT network. 
    - We used Paho MQTT module in python library to create clients(sensors and IoT devices).They continuously send their data to their respective topic to the broker in small          time intervals. 
@@ -40,22 +40,20 @@
   <img src="https://user-images.githubusercontent.com/76246968/127762697-35ea25c1-0845-4827-a4b0-a41863896f34.png">
   <i>Mqtt Communication</i>
   </p>
- </p>
  
 
- <h3>Chatbot</h3>
+### Chatbot
+- We used Flask-python Framework for creating Chatbot and Dashboard
+- We also added auth login system for security measures
+- Sqlite3 act as an database in backend
+- ***Microsoft Azure App services act as Cloud based hosting platform*** 
 
-  - We used Flask-python Framework for creating Chatbot and Dashboard
-  - We also added auth login system for security measures
-  - Sqlite3 act as an database in backend
-  - ***Microsoft Azure App services act as Cloud based hosting platform*** 
 
- </p>
  
 
-<p align="justify">
- <h2>Cost Structure</h2>
- </p>
+
+## Cost Structure
+
 | Software Components | Cost |
 |:---------------------:|:----:|
 | Python | None(Open-Source) |
@@ -63,39 +61,29 @@
 | Paho MQTT | None(Open-Source) |
 | Cloud Services | Depends on service provider |
 
-<p align="justify">
 
-<h2>Applications</h2>
-<p>
-  - Healthcare Sector<br>
-  - Home Automation<br>
-  - Automotive IoT<br>
-  - Industrial Automation<br>
-  - Wearables<br>
-</p>
-
-<h2>Limitation</h2>
-<p>
-  - Currently our broker/server can handle only upto 8 clients/Iot devices 
-</p>
-
-<h2>Future Improvements</h2>
-<p>
- - ML model for better User experience which can give best suggestions to user by analysing previous user input.<br>
- - Allowing connection of more clients.<br>
- - Raspberry Pi and Sensors usage so that we can deal with realtime data.<br>
- </p>
+## Applications
+- Healthcare Sector
+- Home Automation
+- Automotive IoT
+- Industrial Automation
+- Wearables
 
 
+## Limitation
+ - Currently our broker/server can handle only upto 8 clients/Iot devices 
+ 
 
+## Future Improvements
+ - ML model for better User experience which can give best suggestions to user by analysing previous user input.
+ - Allowing connection of more clients
+ - Raspberry Pi and Sensors usage so that we can deal with realtime data.
+ 
 
-
-
-<h2>Installation</h2>
-<p align="justify">
+## Installation
  >By Using Hosted Website 
    - Download the all files from folder [sensors](https://github.com/Nageshbansal/IotChatbot/tree/main/sensors) 
-   -  Install Python <br>
+   -  Install Python 
    -  Install Paho-mqtt
       ``` 
       pip install paho-mqtt
@@ -146,32 +134,29 @@
        ```
        Username: test
        Password : 1234  
- ```
- </p>
+       
+     ```
 
-<h2>Hosted Chatbot</h2>
-   <p align="justify">[http://iotchatbot.azurewebsites.net/](http://iotchatbot.azurewebsites.net/)</p>
+## Hosted Chatbot<
+ [http://iotchatbot.azurewebsites.net/](http://iotchatbot.azurewebsites.net/)
   
   
-  <h2>Team Members</h2>
-  <p>
-  1. [Khushi Kumawat](https://github.com/khushi861)
-  2. [Kushagra Agarwal](https://github.com/Kushagra-Agarwal44)
-  3. [Nagesh Bansal](https://github.com/Nageshbansal)
-  4. [Vaishnavi Gupta](https://github.com/vaishnavi-gupta18)
- </p> 
+## Team Members
+ 1. [Khushi Kumawat](https://github.com/khushi861)
+ 2. [Kushagra Agarwal](https://github.com/Kushagra-Agarwal44)
+ 3. [Nagesh Bansal](https://github.com/Nageshbansal)
+ 4. [Vaishnavi Gupta](https://github.com/vaishnavi-gupta18)
+
  
-<h2> Mentors</h2>
-<p>
-  1. [Pradnesh Chavan](https://github.com/theobscuredev)
-  2. [Sanjeev Krishnan R.](https://github.com/SanjeevKrishnan)
- </p> 
-  
-  <h2>References</h2>
-  <p>
-  1. [MQTT Basics](https://medium.com/python-point/mqtt-basics-with-python-examples-7c758e605d4)
-  2. [Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/)
-  3. [IoT Architecture](https://www.avsystem.com/blog/what-is-iot-architecture/)
-  4. [Azure IoTHub](https://docs.microsoft.com/en-in/azure/iot-hub/)
-  </p>
+## Mentors
+ 1. [Pradnesh Chavan](https://github.com/theobscuredev)
+ 2. [Sanjeev Krishnan R.](https://github.com/SanjeevKrishnan)
+
+
+## Reference</h2>
+ 1. [MQTT Basics](https://medium.com/python-point/mqtt-basics-with-python-examples-7c758e605d4)
+ 2. [Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/)
+ 3. [IoT Architecture](https://www.avsystem.com/blog/what-is-iot-architecture/)
+ 4. [Azure IoTHub](https://docs.microsoft.com/en-in/azure/iot-hub/)
+
   
