@@ -31,19 +31,19 @@
 <h2>Software Aspect</h2>
 <h3>Networking</h3>
 <h4>Creation of IoT Network Using MQTT (Message Queuing Telemetry Transport)</h4>   
-* Adding multiple client requires threading and has overhead if we havemany IoT applications.So, we used MQTT protocol which is suitable for IoT network.<br>
-* We used Paho MQTT module in python library to create clients(sensors and IoT devices).They continuously send their data to their respective topic to the broker in small<         time intervals.<br>
-* This data is then received by flask server which acts as subscriber in this case. MQTT has been implemented in flask with the help of flask-mqtt module in python.<br>
+  * Adding multiple client requires threading and has overhead if we havemany IoT applications.So, we used MQTT protocol which is suitable for IoT network.<br>
+  * We used Paho MQTT module in python library to create clients(sensors and IoT devices).They continuously send their data to their respective topic to the broker in small<         time intervals.<br>
+  * This data is then received by flask server which acts as subscriber in this case. MQTT has been implemented in flask with the help of flask-mqtt module in python.<br>
   <p align="center">
   <img src="https://user-images.githubusercontent.com/76246968/127762697-35ea25c1-0845-4827-a4b0-a41863896f34.png">
   <i>Mqtt Communication</i>
   </p>
   
 <h3>Chatbot</h3>
-* We used Flask-python Framework for creating Chatbot and Dashboard
-* We also added auth login system for security measures
-* Sqlite3 act as an database in backend
-* ***Microsoft Azure App services act as Cloud based hosting platform***
+  * We used Flask-python Framework for creating Chatbot and Dashboard<br>
+  * We also added auth login system for security measures<br>
+  * Sqlite3 act as an database in backend<br>
+  * ***Microsoft Azure App services act as Cloud based hosting platform*** 
 
 </p>
  
@@ -62,11 +62,12 @@
 <p align="justify">
  <h2>Application</h2>
  <p>
-* Healthcare Sector
-* Home Automation
-* Automotive IoT
-* Industrial Automation
-* Wearables
+ * Healthcare Sector<br>
+ * Home Automation<br>
+ * Automotive IoT<br>
+ * Industrial Automation<br>
+ * Wearables<br>
+                
 </p>
 
 ## Limitation
