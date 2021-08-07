@@ -28,16 +28,16 @@
 </p>
 
 <p align="justify">
-
 <h2>Software Aspect</h2>
- ### Networking 
- #### Creation of IoT Network Using MQTT (Message Queuing Telemetry Transport)
+
+ ## Networking 
+ ### Creation of IoT Network Using MQTT (Message Queuing Telemetry Transport)
    - Adding multiple client requires threading and has overhead if we havemany IoT applications.So, we used MQTT protocol which is suitable for IoT network. 
    - We used Paho MQTT module in python library to create clients(sensors and IoT devices).They continuously send their data to their respective topic to the broker in small          time intervals. 
    - This data is then received by flask server which acts as subscriber in this case. MQTT has been implemented in flask with the help of flask-mqtt module in python.
   ![image](https://user-images.githubusercontent.com/76246968/127762697-35ea25c1-0845-4827-a4b0-a41863896f34.png)
 
-### Chatbot
+## Chatbot
   - We used Flask-python Framework for creating Chatbot and Dashboard
   - We also added auth login system for security measures
   - Sqlite3 act as an database in backend
