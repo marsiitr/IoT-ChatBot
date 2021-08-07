@@ -67,11 +67,11 @@
 
 <h2>Applications</h2>
 <p>
-  - Healthcare Sector
-  - Home Automation
-  - Automotive IoT
-  - Industrial Automation
-  - Wearables
+  - Healthcare Sector<br>
+  - Home Automation<br>
+  - Automotive IoT<br>
+  - Industrial Automation<br>
+  - Wearables<br>
 </p>
 
 <h2>Limitation</h2>
@@ -81,9 +81,9 @@
 
 <h2>Future Improvements</h2>
 <p>
- - ML model for better User experience which can give best suggestions to user by analysing previous user input.
- - Allowing connection of more clients
- - Raspberry Pi and Sensors usage so that we can deal with realtime data.
+ - ML model for better User experience which can give best suggestions to user by analysing previous user input.<br>
+ - Allowing connection of more clients.<br>
+ - Raspberry Pi and Sensors usage so that we can deal with realtime data.<br>
  </p>
 
 
@@ -95,7 +95,7 @@
 <p align="justify">
  >By Using Hosted Website 
    - Download the all files from folder [sensors](https://github.com/Nageshbansal/IotChatbot/tree/main/sensors) 
-   -  Install Python 
+   -  Install Python <br>
    -  Install Paho-mqtt
       ``` 
       pip install paho-mqtt
