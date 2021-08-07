@@ -1,7 +1,7 @@
 # Iot-Chatbot
 ## Open Projects 2021
 
-# ***IoTChatbot***
+
 <p align="center">
  <img src="https://user-images.githubusercontent.com/76246968/127762969-0b0b08ea-84e5-41cd-a843-ae954c220526.png">
 </p>
