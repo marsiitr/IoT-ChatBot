@@ -29,7 +29,7 @@
 
 <p align="justify">
 
-##Software Aspect
+<h2>Software Aspect</h2>
  ### Networking 
  #### Creation of IoT Network Using MQTT (Message Queuing Telemetry Transport)
    - Adding multiple client requires threading and has overhead if we havemany IoT applications.So, we used MQTT protocol which is suitable for IoT network. 
